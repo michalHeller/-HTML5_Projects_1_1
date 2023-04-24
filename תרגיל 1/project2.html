@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+
+    <section id="BasicDesignOfTheSite">
+        <header> <img src="html5-hyper-text-markup-language-html-wallpaper-thumb.jpeg" id="Logo"></header>
+        <article id="arti">
+            <h4>שאלות</h4>
+            <form action="project3.html">
+
+                <h4>Which of the three is the oldest computer language?</h4>
+                <input type="radio" id="op1" name="rd" onchange="Play()" required="required">
+                <lable for="op1"> Assembly</lable>
+                <input type="radio" id="op2" name="rd" onchange="Pause()">
+                <lable for="op2">React</lable>
+                <input type="radio" id="op3" name="rd" onchange="Pause()">
+                <lable for="op3">Python</lable>
+                <br>
+                <h4>What letter is acceptable to use in a generic class?</h4>
+                <input type="radio" id="q" name="qw" onchange="Pause()">
+                <lable for="q"> Doesn't matter, the main thing is an English letter</lable>
+                <input type="radio" id="qw" name="qw" >
+                <lable for="qw">x</lable>
+                <input type="radio" id="qwe" name="qw" onchange="Play()" required="required">
+                <lable for="qwe">T</lable>
+
+                <h4>hhhhh</h4>
+                <input type="radio" id="op1" name="nd" onchange="Play()" required="required">
+                <lable for="op1"> Assembly</lable>
+                <input type="radio" id="op2" name="nd" onchange="Pause()">
+                <lable for="op2">React</lable>
+                <input type="radio" id="op3" name="nd" onchange="Pause()">
+                <lable for="op3">Python</lable>
+                <br>
+
+                <h4>llll</h4>
+                <input type="radio" id="q" name="jw" onchange="Pause()">
+                <lable for="q"> Doesn't matter, the main thing is an English letter</lable>
+                <input type="radio" id="qw" name="jw" >
+                <lable for="qw">x</lable>
+                <input type="radio" id="qwe" name="jw" onchange="Play()" required="required">
+                <lable for="qwe">T</lable>
+                <br>
+                <br>
+                <br>
+                <input type="submit" value="להמשך" id="submit">
+
+            </form>
+        </article>
+        <nav>
+            <h1><a href="project.html">Homepage</a></h1></br>
+            <h1><a href="project1.html">Enrollment</a></h1></br>
+            <h1><a href="כלום.html">Video lectures</a></h1></br>
+            <h1><a href="כלום.html"> The arena of questions</a></h1></br>
+            <h1><a href="כלום.html">Podcasts </a></h1></br>
+            <h1><a href="כלום.html">Colleges</a></h1></br>
+            <h1><a href="כלום.html">Guides and articles</a></h1></br>
+        </nav>
+    </section>
+    <audio id="audio2" >
+        <source src="Trumpets in Your Ears _ wowa.me.mp3" type="audio/mpeg" />
+    </audio>
+    <footer>© Michal Heller // Michal1100100@gmail.com</footer>
+
+    <script>
+        function Play() {
+            document.getElementById("audio2").play();
+        }
+
+        function Pause() {
+            document.getElementById("audio2").pause();
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+
+}
+
+#Logo {
+    height: 350px;
+    width: 700px;
+}
+
+#BasicDesignOfTheSite {
+    width: auto;
+    margin: auto;
+}
+
+article {
+    float: left;
+    width: 80%;
+    /* height: 750px; */
+}
+
+nav {
+    float: left;
+    width: 20%;
+   
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    height: 100px;
+}
+
+mark {
+    background-color: rgb(201, 74, 0);
+}
+
+#arti {
+    font-size: x-large;
+    font-style: italic;
+}
+h1{
+    font-size: xx-large;
+    font-style:inherit;
+    color: rgb(182, 62, 6);
+}
+#pratim{
+    font-size: xx-large;
+    font-style: italic;
+}
+#submit{
+    color: white;
+    background:  rgb(182, 62, 6);
+    size: 100px;
+}

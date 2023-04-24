@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+    color: white;
+    background-color: teal;
+}
+h1{
+    color: black;
+    font-style:inherit;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    height: 100px;
+}
+button{
+    size: 50;
+}
